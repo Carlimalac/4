@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+#message {
+  position: absolute;
+  font-size: 15px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
+
+footer {
+  font-size: 12px;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+.square {
+  position: absolute;
+  pointer-events: none;
+}
